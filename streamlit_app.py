@@ -103,4 +103,4 @@ def get_payload_chart(launch_site, payload_mass):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug=True, port=8051)
